@@ -3,7 +3,12 @@ import random
 c= True
 while c == True:
     # Words list
-    words = ['gamer', 'computer', 'cat', 'ball', 'games', 'player', 'bread', 'banana', 'cabbage', 'witcher', 'red', 'redemption', 'table', 'chair', 'television']
+    words = ['gamer', 'computer', 'cat', 'ball', 'games', 'player', 'bread', 'banana', 'cabbage', 'witcher', 'red', 'redemption', 'table', 'chair',
+             'television', 'oranges', 'football', 'cricket', 'guava', 'watermelon', 'cooler', 'fan', 'song', 'phone', 'tablet', 'wire', 'cable', 'car', 
+             'boy', 'girl', 'star', 'moon','earth', 'world', 'mars', 'perseverance', 'curiosity', 'ecstasy', 'easy', 'hard', 'garden', 'grand', 'theft', 
+             'auto', 'machine', 'artificial', 'intelligence', 'knowledge','plethora', 'honda', 'porsche', 'audi', 'toyota', 'lamborghini', 'tesla', 'windows', 
+             'pascal', 'einstein', 'newton', 'microsoft', 'apple', 'android', 'google', 'facebook', 'python', 'pycharm',
+             'graphics', 'youtube']
     # Choosing a random word
     word = random.choice(words)
     # Finding the length of the word and printing it to let user know
