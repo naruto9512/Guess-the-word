@@ -1,6 +1,6 @@
 # Guess-the-word
 It is a simple word guessing game where you get 5 guesses to guess a word. 
-There is a list of word here that you can easily edit. 
+There is a list of words here that you can easily edit. 
 A random function calls one of the words from the list and then the player is given 5 guesses. 
 Players have to guess letters. 
 If the player guesses one letter correctly the program will show its location and then he\she would be given a chance to guess the full word and if he\she fails at this point no penalty will be given.
